@@ -9,3 +9,13 @@ struct SwiftPatternsApp: App {
         }.windowResizability(.contentSize)
     }
 }
+
+struct ContentView: View {
+    var body: some View {
+        LayoutSidebar()
+    }
+}
+
+#Preview {
+    ContentView()
+}
