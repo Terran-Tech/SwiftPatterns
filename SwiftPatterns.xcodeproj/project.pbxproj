@@ -11,6 +11,7 @@
 		92B1F4C22B581B1500223D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F4C12B581B1500223D89 /* Assets.xcassets */; };
 		92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */; };
 		92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF02B59A12D00124B9D /* DynamicIcon.swift */; };
+		92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		92B1F4D52B581B1500223D89 /* SwiftPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSidebar.swift; sourceTree = "<group>"; };
 		92D07CF02B59A12D00124B9D /* DynamicIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIcon.swift; sourceTree = "<group>"; };
+		92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurGradientBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				92D07CEF2B59A10900124B9D /* Examples */,
 				92B1F4C12B581B1500223D89 /* Assets.xcassets */,
 				92B1F4C62B581B1500223D89 /* SwiftPatterns.entitlements */,
+				92D07CF42B59BA0400124B9D /* Preview Content */,
 			);
 			path = SwiftPatterns;
 			sourceTree = "<group>";
@@ -100,8 +103,16 @@
 			children = (
 				92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */,
 				92D07CF02B59A12D00124B9D /* DynamicIcon.swift */,
+				92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */,
 			);
 			path = Examples;
+			sourceTree = "<group>";
+		};
+		92D07CF42B59BA0400124B9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B1F4BE2B581B1400223D89 /* App.swift in Sources */,
+				92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */,
 				92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */,
 				92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */,
 			);
