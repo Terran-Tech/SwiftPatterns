@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		92B1F4BE2B581B1400223D89 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F4BD2B581B1400223D89 /* App.swift */; };
 		92B1F4C22B581B1500223D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F4C12B581B1500223D89 /* Assets.xcassets */; };
-		92B1F4C52B581B1500223D89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F4C42B581B1500223D89 /* Preview Assets.xcassets */; };
 		92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */; };
 		92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF02B59A12D00124B9D /* DynamicIcon.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		92B1F4BA2B581B1400223D89 /* SwiftPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1F4BD2B581B1400223D89 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		92B1F4C12B581B1500223D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92B1F4C42B581B1500223D89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92B1F4C62B581B1500223D89 /* SwiftPatterns.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftPatterns.entitlements; sourceTree = "<group>"; };
 		92B1F4CB2B581B1500223D89 /* SwiftPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1F4D52B581B1500223D89 /* SwiftPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,17 +91,8 @@
 				92D07CEF2B59A10900124B9D /* Examples */,
 				92B1F4C12B581B1500223D89 /* Assets.xcassets */,
 				92B1F4C62B581B1500223D89 /* SwiftPatterns.entitlements */,
-				92B1F4C32B581B1500223D89 /* Preview Content */,
 			);
 			path = SwiftPatterns;
-			sourceTree = "<group>";
-		};
-		92B1F4C32B581B1500223D89 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				92B1F4C42B581B1500223D89 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		92D07CEF2B59A10900124B9D /* Examples */ = {
@@ -219,7 +208,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B1F4C52B581B1500223D89 /* Preview Assets.xcassets in Resources */,
 				92B1F4C22B581B1500223D89 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
