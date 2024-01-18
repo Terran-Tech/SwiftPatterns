@@ -12,7 +12,8 @@ struct SwiftPatternsApp: App {
 
 struct ContentView: View {
     var body: some View {
-        LayoutSidebar()
+        // Place here any of the examples in Examples/
+        ConfirmationSheetExampleView()
     }
 }
 
