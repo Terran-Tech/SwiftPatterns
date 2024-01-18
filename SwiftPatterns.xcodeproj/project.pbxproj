@@ -12,6 +12,7 @@
 		92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */; };
 		92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF02B59A12D00124B9D /* DynamicIcon.swift */; };
 		92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */; };
+		92D07CF62B59CC4000124B9D /* CustomAboutPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSidebar.swift; sourceTree = "<group>"; };
 		92D07CF02B59A12D00124B9D /* DynamicIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIcon.swift; sourceTree = "<group>"; };
 		92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurGradientBackground.swift; sourceTree = "<group>"; };
+		92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAboutPanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */,
 				92D07CF02B59A12D00124B9D /* DynamicIcon.swift */,
 				92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */,
+				92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			files = (
 				92B1F4BE2B581B1400223D89 /* App.swift in Sources */,
 				92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */,
+				92D07CF62B59CC4000124B9D /* CustomAboutPanel.swift in Sources */,
 				92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */,
 				92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */,
 			);
