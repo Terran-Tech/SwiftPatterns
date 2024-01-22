@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923B3A382B5F35CA005E4F56 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B3A372B5F35CA005E4F56 /* Alerts.swift */; };
 		92B1F4BE2B581B1400223D89 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F4BD2B581B1400223D89 /* App.swift */; };
 		92B1F4C22B581B1500223D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F4C12B581B1500223D89 /* Assets.xcassets */; };
 		92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		923B3A372B5F35CA005E4F56 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		92B1F4BA2B581B1400223D89 /* SwiftPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1F4BD2B581B1400223D89 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		92B1F4C12B581B1500223D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */,
 				92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */,
 				92D07CF92B59D94C00124B9D /* ConfirmationSheet.swift */,
+				923B3A372B5F35CA005E4F56 /* Alerts.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */,
 				92D07CF62B59CC4000124B9D /* CustomAboutPanel.swift in Sources */,
 				92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */,
+				923B3A382B5F35CA005E4F56 /* Alerts.swift in Sources */,
 				92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

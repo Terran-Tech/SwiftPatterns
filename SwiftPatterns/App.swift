@@ -13,7 +13,7 @@ struct SwiftPatternsApp: App {
 struct ContentView: View {
     var body: some View {
         // Place here any of the examples in Examples/
-        ConfirmationSheetExampleView()
+        AlertsView()
     }
 }
 
