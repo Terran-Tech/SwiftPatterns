@@ -1,10 +1,14 @@
 import SwiftUI
 
 struct DynamicIcon: View {
-    enum Status: String {
-        case running, stopped, indeterminate, needsReboot
+    enum Status: Int {
+        case running = 0, stopped, indeterminate, needsReboot
     }
     @State private var status: Status = .stopped
+
+    func nextStatus() -> Status {
+        Status(rawValue: (status.rawValue + 1) % 4)!
+    }
 
     // Derived
     var menuBarIcon: String {
@@ -21,7 +25,16 @@ struct DynamicIcon: View {
     }
 
     var body: some View {
-        Label("Thing", systemImage: menuBarIcon)
+        VStack {
+            Label("Thing", systemImage: menuBarIcon)
+            Button("Toggle next status") {
+                status = nextStatus()
+            }
+        }.padding()
     }
 
+}
+
+#Preview {
+    DynamicIcon()
 }
