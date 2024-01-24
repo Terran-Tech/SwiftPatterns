@@ -28,7 +28,11 @@ struct AlertsView: View {
             } message: {
                 Text("Alert text goes here.")
             }
-
         }
+        .padding()
     }
+}
+
+#Preview {
+    AlertsView()
 }
