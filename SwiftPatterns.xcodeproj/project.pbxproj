@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		922370332B636BB4006C6DFF /* ComputerSleepAndLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */; };
+		922370352B636BF9006C6DFF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370342B636BF9006C6DFF /* Logger.swift */; };
 		923B3A382B5F35CA005E4F56 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B3A372B5F35CA005E4F56 /* Alerts.swift */; };
 		92A92FB62B6159F60028663F /* TaskTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A92FB52B6159F60028663F /* TaskTimeout.swift */; };
 		92B1F4BE2B581B1400223D89 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F4BD2B581B1400223D89 /* App.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerSleepAndLock.swift; sourceTree = "<group>"; };
+		922370342B636BF9006C6DFF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		923B3A372B5F35CA005E4F56 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		92A92FB42B6155D90028663F /* LEARN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LEARN.md; sourceTree = "<group>"; };
 		92A92FB52B6159F60028663F /* TaskTimeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTimeout.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				923B3A372B5F35CA005E4F56 /* Alerts.swift */,
 				92A92FB52B6159F60028663F /* TaskTimeout.swift */,
 				92B25ECE2B61D72100AD48B2 /* Documentation.swift */,
+				922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */,
+				922370342B636BF9006C6DFF /* Logger.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D07CFA2B59D94C00124B9D /* ConfirmationSheet.swift in Sources */,
+				922370352B636BF9006C6DFF /* Logger.swift in Sources */,
+				922370332B636BB4006C6DFF /* ComputerSleepAndLock.swift in Sources */,
 				92B1F4BE2B581B1400223D89 /* App.swift in Sources */,
 				92B25ECF2B61D72100AD48B2 /* Documentation.swift in Sources */,
 				92D07CF32B59B98100124B9D /* BlurGradientBackground.swift in Sources */,
