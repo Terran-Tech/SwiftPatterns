@@ -14,6 +14,7 @@ enum ComputerEvent: String {
     case screenIsUnlocked = "screenIsUnlocked"
 }
 
+/// Get notifications when user locks, unlocks, sleeps or wakes up their computer
 class ComputerSleepAndLock {
     private var cancellables: Set<AnyCancellable> = []
 
