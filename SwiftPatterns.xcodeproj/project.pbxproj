@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		922370332B636BB4006C6DFF /* ComputerSleepAndLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */; };
-		922370352B636BF9006C6DFF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370342B636BF9006C6DFF /* Logger.swift */; };
+		922370352B636BF9006C6DFF /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370342B636BF9006C6DFF /* Logging.swift */; };
 		922370372B63CEB1006C6DFF /* LocalizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922370362B63CEB1006C6DFF /* LocalizedView.swift */; };
 		923B3A382B5F35CA005E4F56 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B3A372B5F35CA005E4F56 /* Alerts.swift */; };
 		92A92FB62B6159F60028663F /* TaskTimeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A92FB52B6159F60028663F /* TaskTimeout.swift */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerSleepAndLock.swift; sourceTree = "<group>"; };
-		922370342B636BF9006C6DFF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		922370342B636BF9006C6DFF /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		922370362B63CEB1006C6DFF /* LocalizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedView.swift; sourceTree = "<group>"; };
 		923B3A372B5F35CA005E4F56 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		92A92FB42B6155D90028663F /* LEARN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LEARN.md; sourceTree = "<group>"; };
@@ -53,6 +53,7 @@
 		92B1F4CB2B581B1500223D89 /* SwiftPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B1F4D52B581B1500223D89 /* SwiftPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B25ECE2B61D72100AD48B2 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		92C79DE02B67DFC6002D17C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSidebar.swift; sourceTree = "<group>"; };
 		92D07CF02B59A12D00124B9D /* DynamicIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicIcon.swift; sourceTree = "<group>"; };
 		92D07CF22B59B98100124B9D /* BlurGradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurGradientBackground.swift; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		92B1F4B12B581B1400223D89 = {
 			isa = PBXGroup;
 			children = (
+				92C79DE02B67DFC6002D17C7 /* README.md */,
 				92A92FB42B6155D90028663F /* LEARN.md */,
 				92B1F4BC2B581B1400223D89 /* SwiftPatterns */,
 				92B1F4BB2B581B1400223D89 /* Products */,
@@ -108,7 +110,9 @@
 			isa = PBXGroup;
 			children = (
 				92B1F4BD2B581B1400223D89 /* App.swift */,
-				92D07CEF2B59A10900124B9D /* Examples */,
+				92C79DE12B67E053002D17C7 /* Swift */,
+				92D07CEF2B59A10900124B9D /* SwiftUI */,
+				92C79DE22B67E06D002D17C7 /* System */,
 				92B1F4C12B581B1500223D89 /* Assets.xcassets */,
 				92B1F4C62B581B1500223D89 /* SwiftPatterns.entitlements */,
 				92D07CF42B59BA0400124B9D /* Preview Content */,
@@ -116,7 +120,25 @@
 			path = SwiftPatterns;
 			sourceTree = "<group>";
 		};
-		92D07CEF2B59A10900124B9D /* Examples */ = {
+		92C79DE12B67E053002D17C7 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				922370342B636BF9006C6DFF /* Logging.swift */,
+				92B25ECE2B61D72100AD48B2 /* Documentation.swift */,
+				92A92FB52B6159F60028663F /* TaskTimeout.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		92C79DE22B67E06D002D17C7 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		92D07CEF2B59A10900124B9D /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				92D07CED2B59A00C00124B9D /* LayoutSidebar.swift */,
@@ -125,13 +147,9 @@
 				92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */,
 				92D07CF92B59D94C00124B9D /* ConfirmationSheet.swift */,
 				923B3A372B5F35CA005E4F56 /* Alerts.swift */,
-				92A92FB52B6159F60028663F /* TaskTimeout.swift */,
-				92B25ECE2B61D72100AD48B2 /* Documentation.swift */,
-				922370322B636BB4006C6DFF /* ComputerSleepAndLock.swift */,
-				922370342B636BF9006C6DFF /* Logger.swift */,
 				922370362B63CEB1006C6DFF /* LocalizedView.swift */,
 			);
-			path = Examples;
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 		92D07CF42B59BA0400124B9D /* Preview Content */ = {
@@ -271,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92D07CFA2B59D94C00124B9D /* ConfirmationSheet.swift in Sources */,
-				922370352B636BF9006C6DFF /* Logger.swift in Sources */,
+				922370352B636BF9006C6DFF /* Logging.swift in Sources */,
 				922370332B636BB4006C6DFF /* ComputerSleepAndLock.swift in Sources */,
 				92B1F4BE2B581B1400223D89 /* App.swift in Sources */,
 				92B25ECF2B61D72100AD48B2 /* Documentation.swift in Sources */,
