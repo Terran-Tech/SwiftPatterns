@@ -1,8 +1,8 @@
 import SwiftUI
 
 /// Once localization is enabled for the app, the following would work automatically:
-/// 1. Use LocalizedStringKey on variables that hold strings that should be localized
-/// 2. Text(text) and other default UI views typically intake LocalizedStringKey already, so simply write strings directly.
+/// 1. Use ``LocalizedStringKey`` on variables that hold strings that should be localized
+/// 2. ``Text(text)`` and other default UI views typically intake ``LocalizedStringKey`` already, so simply write strings directly.
 /// 3. Use comment to provide an instruction for the translator.
 struct LocalizedView: View {
     var message: LocalizedStringKey = "Beaches you visited in the past 6 months"
