@@ -21,6 +21,8 @@
 		92D07CF62B59CC4000124B9D /* CustomAboutPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */; };
 		92D07CFA2B59D94C00124B9D /* ConfirmationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D07CF92B59D94C00124B9D /* ConfirmationSheet.swift */; };
 		92D3F3052B6D9AC800208642 /* MainActorTaskDetach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3F3042B6D9AC800208642 /* MainActorTaskDetach.swift */; };
+		92D3F3102B70250300208642 /* DNSResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3F30F2B70250300208642 /* DNSResolver.swift */; };
+		92D3F3132B70266C00208642 /* AsyncDNSResolver in Frameworks */ = {isa = PBXBuildFile; productRef = 92D3F3122B70266C00208642 /* AsyncDNSResolver */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,7 @@
 		92D07CF52B59CC4000124B9D /* CustomAboutPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAboutPanel.swift; sourceTree = "<group>"; };
 		92D07CF92B59D94C00124B9D /* ConfirmationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationSheet.swift; sourceTree = "<group>"; };
 		92D3F3042B6D9AC800208642 /* MainActorTaskDetach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorTaskDetach.swift; sourceTree = "<group>"; };
+		92D3F30F2B70250300208642 /* DNSResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSResolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D3F3132B70266C00208642 /* AsyncDNSResolver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +97,7 @@
 				922370342B636BF9006C6DFF /* Logging.swift */,
 				92B25ECE2B61D72100AD48B2 /* Documentation.swift */,
 				92A92FB52B6159F60028663F /* TaskTimeout.swift */,
+				92D3F30F2B70250300208642 /* DNSResolver.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = SwiftPatterns;
+			packageProductDependencies = (
+				92D3F3122B70266C00208642 /* AsyncDNSResolver */,
+			);
 			productName = SwiftPatterns;
 			productReference = 92B1F4BA2B581B1400223D89 /* SwiftPatterns.app */;
 			productType = "com.apple.product-type.application";
@@ -171,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 92B1F4B12B581B1400223D89;
+			packageReferences = (
+				92D3F3112B70266C00208642 /* XCRemoteSwiftPackageReference "swift-async-dns-resolver" */,
+			);
 			productRefGroup = 92B1F4BB2B581B1400223D89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,6 +217,7 @@
 				92D07CF62B59CC4000124B9D /* CustomAboutPanel.swift in Sources */,
 				92D07CF12B59A12D00124B9D /* DynamicIcon.swift in Sources */,
 				922370372B63CEB1006C6DFF /* LocalizedView.swift in Sources */,
+				92D3F3102B70250300208642 /* DNSResolver.swift in Sources */,
 				923B3A382B5F35CA005E4F56 /* Alerts.swift in Sources */,
 				92A92FB62B6159F60028663F /* TaskTimeout.swift in Sources */,
 				92D07CEE2B59A00C00124B9D /* LayoutSidebar.swift in Sources */,
@@ -409,6 +421,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92D3F3112B70266C00208642 /* XCRemoteSwiftPackageReference "swift-async-dns-resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-dns-resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92D3F3122B70266C00208642 /* AsyncDNSResolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92D3F3112B70266C00208642 /* XCRemoteSwiftPackageReference "swift-async-dns-resolver" */;
+			productName = AsyncDNSResolver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92B1F4B22B581B1400223D89 /* Project object */;
 }
