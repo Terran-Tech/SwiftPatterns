@@ -1,0 +1,7 @@
+This project uses swift-async-dns-resolver.
+
+    * LICENSE (Apache License 2.0):
+        * https://www.apache.org/licenses/LICENSE-2.0
+    * HOMEPAGE:
+        * https://github.com/apple/swift-async-dns-resolver
+
